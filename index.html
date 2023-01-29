@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Formulario</title>
     <!-- cdn tailwindcss -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
   </head>
@@ -12,7 +12,7 @@
     <div
       class="bg-gradient-to-b from-purple-600 to-indigo-700 h-96 w-full mb-8"
     >
-      <div class="w-full">
+      <div class="w-full contenedor-formulario">
         <form id="formulario" class="flex items-center justify-center">
           <div
             class="absolute top-20 bg-white dark:bg-gray-800 shadow rounded-xl py-10 lg:px-28 px-8"
@@ -96,8 +96,10 @@
               <input
                 id="enviar"
                 name="enviar"
+                value="Enviar"
                 type="submit"
-                class="mt-9 text-base font-semibold leading-none text-white py-4 px-10 bg-indigo-700 rounded hover:bg-indigo-600 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none transition-all cursor-pointer"
+                class="mt-7 flex-1 bg-blue-600 text-white text-lg font-bold flex justify-center gap-2 items-center p-3 opacity-50"
+                disabled
               />
             </div>
           </div>
